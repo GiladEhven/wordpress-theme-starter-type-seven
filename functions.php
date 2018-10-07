@@ -67,8 +67,10 @@
                 }
 
                 require_once( get_stylesheet_directory() . '/classes/common/activations/class-inactive-features.php' );
+                require_once( get_stylesheet_directory() . '/classes/common/activations/class-language-features.php' );
 
                 $inactive_features      = new Inactive_Features;
+                $language_features      = new Language_Features;
 
             }
 
