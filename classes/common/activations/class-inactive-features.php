@@ -4,9 +4,9 @@
 
     if ( ! defined( 'ABSPATH' ) ) exit( 'Nothing to see here. Go <a href="/">home</a>.' );
 
-    if ( ! class_exists( __NAMESPACE__ . 'New_Features' ) ) {
+    if ( ! class_exists( __NAMESPACE__ . 'Inactive_Features' ) ) {
 
-        class New_Features {
+        class Inactive_Features {
 
             public function __construct() {
 
