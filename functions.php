@@ -64,7 +64,7 @@
 
                 }
 
-                require_once( get_stylesheet_directory() . '/classes/common/activations/class-new-features.php' );
+                require_once( get_stylesheet_directory() . '/classes/common/activations/class-inactive-features.php' );
 
                 $new_features           = new New_Features;
 
