@@ -68,9 +68,13 @@
 
                 require_once( get_stylesheet_directory() . '/classes/common/activations/class-inactive-features.php' );
                 require_once( get_stylesheet_directory() . '/classes/common/activations/class-language-features.php' );
+                require_once( get_stylesheet_directory() . '/classes/common/customizations/class-media-features.php' );
+                require_once( get_stylesheet_directory() . '/classes/common/customizations/class-webpage-features.php' );
 
                 $inactive_features      = new Inactive_Features;
                 $language_features      = new Language_Features;
+                $media_features         = new Media_Features;
+                $webpage_features       = new Webpage_Features;
 
             }
 
