@@ -50,7 +50,9 @@
 
                 if ( is_admin() ) {
 
-                    // ADMIN SIDE REQUIRES AND INSTANTIATIONS HERE
+                    require_once( get_stylesheet_directory() . '/classes/admin/integrations/class-acf-options-pages.php' );
+
+                    $acf_options_pages  = new Acf_Options_Pages;
 
                 } else {
 
