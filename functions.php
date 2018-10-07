@@ -51,8 +51,10 @@
                 if ( is_admin() ) {
 
                     require_once( get_stylesheet_directory() . '/classes/admin/integrations/class-acf-options-pages.php' );
+                    require_once( get_stylesheet_directory() . '/classes/admin/loaders/class-admin-resources.php' );
 
                     $acf_options_pages  = new Acf_Options_Pages;
+                    $admin_resources    = new Admin_Resources;
 
                 } else {
 
