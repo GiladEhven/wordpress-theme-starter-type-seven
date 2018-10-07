@@ -58,7 +58,9 @@
 
                 } else {
 
-                    // PUBLIC SIDE REQUIRES AND INSTANTIATIONS HERE
+                    require_once( get_stylesheet_directory() . '/classes/public/loaders/class-public-resources.php' );
+
+                    $public_resources   = new Public_Resources;
 
                 }
 
