@@ -64,7 +64,9 @@
 
                 }
 
-                // COMMON REQUIRES AND INSTANTIATIONS HERE
+                require_once( get_stylesheet_directory() . '/classes/common/activations/class-new-features.php' );
+
+                $new_features           = new New_Features;
 
             }
 
